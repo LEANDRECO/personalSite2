@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+section.special.p{
+    padding: 10px;
+}
+
+p{
+    margin: 10px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin: 10px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    margin: 10px;
+    text-align: center;
+}
+
+.box-imagens {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imagem1:hover {
+    transform: scale(1.1);
+    transition: 500ms linear;
+  }
+
+.imagem2:hover {
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+
+.imagem3:hover {
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+
+.imagem4:hover {
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+
+.imagem5:hover {
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+.box-imagens2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-imagem3{
+    float:left;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.special{
+    border-radius: 50%;
+}
+
+.marcos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(253,29,43);
+    background: linear-gradient(298deg, rgba(253,29,43,1) 27%, rgba(253,29,43,1) 27%, rgba(252,176,69,1) 100%);
+
+    
+}
+
+.marcos2 > p{
+    color: white;
+}
+
+.marcos3, .marcos4 {
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    width: 40%;
+    height: 40%;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.special:hover{
+	-webkit-animation: rotate-scale-up 0.65s linear both;
+	        animation: rotate-scale-up 0.65s linear both;
+}
+
+ @-webkit-keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(1.25) rotateZ(180deg);
+              transform: scale(1.25) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+  @keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(1.25) rotateZ(180deg);
+              transform: scale(1.25) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  } 
